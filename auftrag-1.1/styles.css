@@ -1,5 +1,64 @@
 :root {
   --primary-color: #1cd761;
+  --secondary-color: #b7facf;
   --text-color: #000000;
   --alternative-text-color: #ffffff;
+}
+
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+  background-color: var(--primary-color);
+  margin: 0 auto;
+  max-width: 52rem;
+}
+
+header {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  border-radius: 1rem 1rem 0 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul a {
+  color: var(--alternative-text-color);
+  text-decoration: none;
+  padding: 0.6rem;
+  border: 2px solid var(--secondary-color);
+  border-radius: 3rem;
+}
+
+#brand {
+  font-size: 2em;
+}
+
+#releases-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+}
+
+#releases-grid img {
+  width: 10rem;
 }
