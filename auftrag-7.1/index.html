@@ -3,10 +3,25 @@
   <head>
     <meta charset="UTF-8">
     <title>Formular mit Assistenzfunktion</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <form>
-
+    <form id="formular">
+      <label for="vorname">Vorname</label>
+      <input type="text" name="vorname" id="vorname" />
+      <label for="nachname">Nachname</label>
+      <input type="text" name="nachname" id="nachname" />
+      <label for="strasse">Strasse</label>
+      <input type="text" name="strasse" id="strasse" />
+      <label for="plz">Postleitzahl</label>
+      <input type="text" name="plz" id="plz" />
+      <label for="ort">Ort</label>
+      <input type="text" name="ort" id="ort" />
+      <button type="submit">Senden</button>
     </form>
+    <div id="resultat">
+
+    </div>
   </body>
 </html>
