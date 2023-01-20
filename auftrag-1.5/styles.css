@@ -61,14 +61,9 @@ nav ul a {
 
 #releases-grid li {
   text-align: center;
-  transition: background-color 1s;
 }
 
 #releases-grid img {
   padding: 1rem;
   width: 10rem;
-}
-
-#releases-grid .selected {
-  background-color: var(--secondary-color);
 }
