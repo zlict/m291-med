@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spoofify</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
   </head>
 
   <body>
@@ -38,6 +39,11 @@
       </section>
       <section>
         <h2 id="latest-releases-randomized">Latest releases randomized</h2>
+        <div id="releases-actions">
+          <button id="releases-action-add-three-more">Add three more</button>
+          <button id="releases-action-select-randomly">Select randomly</button>
+          <button id="releases-action-remove-first-three">Remove first three</button>
+        </div>
         <ul id="releases-grid">
           <li><img src="https://loremflickr.com/480/480/cd,album,cover?random=1" alt="Random cover 1"></li>
           <li><img src="https://loremflickr.com/480/480/cd,album,cover?random=2" alt="Random cover 2"></li>
