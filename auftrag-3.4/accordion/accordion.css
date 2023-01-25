@@ -1,0 +1,37 @@
+:root {
+  --accent-color: rgb(220, 220, 220);
+}
+
+.accordion dt {
+  font-size: 1.2em;
+  font-weight: bold;
+  border: 2px solid var(--accent-color);
+  user-select: none;
+}
+
+.accordion dt::before {
+  content: '➡';
+}
+
+.accordion dt:not(:last-of-type) {
+  border-bottom: none;
+}
+
+.accordion dd {
+  margin: 0 4px 0 4px;
+  padding: 2px;
+  background-color: var(--accent-color);
+  display: none;
+}
+
+.accordion dt.expanded {
+  border: 2px solid var(--accent-color);
+}
+
+.accordion dt.expanded::before {
+  content: '⬇';
+}
+
+.accordion dt.expanded + dd {
+  display: block;
+}
