@@ -1,1 +1,0 @@
-Kopieren Sie Ihr Resultat aus dem Auftrag 1.1 und kopieren Sie es in diesen Ordner.
