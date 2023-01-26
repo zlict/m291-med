@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "7Segments";
+  src: url("7segments.ttf");
+}
+
+canvas {
+  width: 50%;
+  height: 50%;
+}
