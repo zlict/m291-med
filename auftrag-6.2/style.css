@@ -1,0 +1,13 @@
+svg * {
+  transition: 1s;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+svg:hover #mouth {
+  transform: rotate(180deg);
+}
+
+svg:hover #left-eye {
+  transform: scale(1.2);
+}
